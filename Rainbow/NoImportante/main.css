@@ -1,0 +1,35 @@
+/* Si estas aqui el codigo para la animacion esta en el index */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+}
+.logo{
+    font-size: 50px;
+}
+button{
+    cursor: pointer;
+
+    border-radius: 8px;
+
+    padding: .5em 2em;
+}
+button:active{
+    transform: scale(.8);
+}
+a{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
